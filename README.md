@@ -20,3 +20,5 @@ MP3 Trigger
 The hardware is released under [Creative Commons ShareAlike 3.0 International](https://creativecommons.org/licenses/by-sa/3.0/).
 
 Distributed as-is; no warranty is given.
+
+_**Note:** This product is a collaboration with Robertsonics. A portion of each sales goes back to them for product support and continued development._
