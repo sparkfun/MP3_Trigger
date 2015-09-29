@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24957,6 +24957,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="14" x="2.925" y="3.656" dx="0.348" dy="1.397" layer="1" rot="R180"/>
 <text x="-3.81" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-3.81" y="0" size="0.4064" layer="27">&gt;VALUE</text>
+<circle x="-4.826" y="-1.778" radius="0.2231" width="0.2032" layer="21"/>
 </package>
 </packages>
 <symbols>
