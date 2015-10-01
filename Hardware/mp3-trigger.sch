@@ -25859,14 +25859,14 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="P+9" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="JP3" library="SparkFun" deviceset="M06" device="SIP" value="FTDI Basic"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="U6" library="SparkFun-Electromechanical" deviceset="NAV_SWITCH" device="SMD"/>
+<part name="S1" library="SparkFun-Electromechanical" deviceset="NAV_SWITCH" device="SMD"/>
 <part name="P+2" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="10UF-16V-10%(TANT)" device="" value="10uF"/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="U8" library="SparkFun-Electromechanical" deviceset="SWITCH-DPDT" device="AYZ0202" value="DPDT"/>
+<part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-DPDT" device="AYZ0202" value="DPDT"/>
 <part name="U4" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223" value="LM1117"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="240OHM1/10W1%(0603)" device="" value="240"/>
 <part name="R17" library="SparkFun-Resistors" deviceset="390OHM1/10W1%(0603)" device="" value="390"/>
@@ -26032,7 +26032,7 @@ To power with a 3.3V regulated source
 <attribute name="VALUE" x="238.76" y="170.18" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND5" gate="1" x="218.44" y="147.32"/>
-<instance part="U6" gate="G$1" x="124.46" y="20.32" smashed="yes">
+<instance part="S1" gate="G$1" x="124.46" y="20.32" smashed="yes">
 <attribute name="NAME" x="119.38" y="26.924" size="1.778" layer="95"/>
 <attribute name="VALUE" x="109.22" y="11.684" size="1.778" layer="95"/>
 </instance>
@@ -26042,7 +26042,7 @@ To power with a 3.3V regulated source
 <instance part="C1" gate="G$1" x="66.04" y="55.88"/>
 <instance part="GND13" gate="1" x="55.88" y="60.96"/>
 <instance part="P+3" gate="G$1" x="66.04" y="63.5"/>
-<instance part="U8" gate="G$1" x="45.72" y="167.64"/>
+<instance part="S2" gate="G$1" x="45.72" y="167.64"/>
 <instance part="U4" gate="G$1" x="88.9" y="172.72" smashed="yes">
 <attribute name="NAME" x="91.44" y="177.8" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="92.964" y="167.132" size="1.778" layer="96" rot="R180"/>
@@ -26195,7 +26195,7 @@ To power with a 3.3V regulated source
 <segment>
 <wire x1="132.08" y1="20.32" x2="134.62" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="20.32" x2="134.62" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="C"/>
+<pinref part="S1" gate="G$1" pin="C"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -26399,7 +26399,7 @@ To power with a 3.3V regulated source
 <segment>
 <wire x1="17.78" y1="170.18" x2="40.64" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="PWR"/>
-<pinref part="U8" gate="G$1" pin="2"/>
+<pinref part="S2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -26461,7 +26461,7 @@ To power with a 3.3V regulated source
 <net name="SW2" class="0">
 <segment>
 <wire x1="116.84" y1="20.32" x2="109.22" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="T"/>
+<pinref part="S1" gate="G$1" pin="T"/>
 <label x="109.22" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
@@ -26473,7 +26473,7 @@ To power with a 3.3V regulated source
 <net name="SW3" class="0">
 <segment>
 <wire x1="116.84" y1="17.78" x2="109.22" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="2"/>
+<pinref part="S1" gate="G$1" pin="2"/>
 <label x="109.22" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
@@ -26485,7 +26485,7 @@ To power with a 3.3V regulated source
 <net name="SW1" class="0">
 <segment>
 <wire x1="116.84" y1="22.86" x2="109.22" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="1"/>
+<pinref part="S1" gate="G$1" pin="1"/>
 <label x="109.22" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
@@ -26528,7 +26528,7 @@ To power with a 3.3V regulated source
 </segment>
 <segment>
 <wire x1="40.64" y1="162.56" x2="38.1" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="U8" gate="G$1" pin="5"/>
+<pinref part="S2" gate="G$1" pin="5"/>
 <label x="38.1" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -26556,7 +26556,7 @@ To power with a 3.3V regulated source
 <segment>
 <wire x1="50.8" y1="160.02" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="160.02" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="U8" gate="G$1" pin="6"/>
+<pinref part="S2" gate="G$1" pin="6"/>
 <pinref part="SJ1" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -26579,7 +26579,7 @@ To power with a 3.3V regulated source
 <segment>
 <wire x1="50.8" y1="172.72" x2="60.96" y2="172.72" width="0.1524" layer="91"/>
 <label x="53.34" y="172.72" size="1.778" layer="95"/>
-<pinref part="U8" gate="G$1" pin="1"/>
+<pinref part="S2" gate="G$1" pin="1"/>
 <pinref part="F1" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -26611,9 +26611,9 @@ To power with a 3.3V regulated source
 <label x="48.26" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="60.96" x2="162.56" y2="60.96" width="0.1524" layer="91"/>
-<label x="154.94" y="60.96" size="1.778" layer="95"/>
+<wire x1="152.4" y1="60.96" x2="154.94" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R37" gate="G$1" pin="1"/>
+<label x="154.94" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="71.12" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
@@ -26628,9 +26628,9 @@ To power with a 3.3V regulated source
 <label x="48.26" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="58.42" x2="162.56" y2="58.42" width="0.1524" layer="91"/>
-<label x="154.94" y="58.42" size="1.778" layer="95"/>
+<wire x1="152.4" y1="58.42" x2="154.94" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="R38" gate="G$1" pin="1"/>
+<label x="154.94" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="68.58" x2="22.86" y2="68.58" width="0.1524" layer="91"/>
