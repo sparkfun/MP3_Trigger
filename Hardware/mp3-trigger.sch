@@ -24757,14 +24757,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.016" y1="1.016" x2="2.7686" y2="1.016" width="0.127" layer="21"/>
 <wire x1="2.7686" y1="1.016" x2="2.7686" y2="-1.016" width="0.127" layer="21"/>
 <wire x1="2.7686" y1="-1.016" x2="1.016" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="2.9972" y1="0" x2="3.3528" y2="0" width="0.127" layer="21"/>
+<wire x1="3.175" y1="0" x2="3.3528" y2="0" width="0.127" layer="21"/>
 <wire x1="-1.016" y1="-1.016" x2="-2.7686" y2="-1.016" width="0.127" layer="21"/>
 <wire x1="-2.7686" y1="-1.016" x2="-2.7686" y2="1.016" width="0.127" layer="21"/>
 <wire x1="-2.7686" y1="1.016" x2="-1.016" y2="1.016" width="0.127" layer="21"/>
-<wire x1="-2.9972" y1="0" x2="-3.3528" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.175" y1="0.1778" x2="-3.175" y2="-0.1778" width="0.127" layer="21"/>
 <text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3.175" y1="0" x2="-3.81" y2="0" width="0.254" layer="21"/>
+<wire x1="-3.48741875" y1="-0.368296875" x2="-3.48741875" y2="0.3556" width="0.254" layer="21"/>
+<wire x1="3.175" y1="0" x2="3.81" y2="0" width="0.254" layer="21"/>
+<wire x1="-3.489959375" y1="0.37591875" x2="-3.48741875" y2="0.373378125" width="0.254" layer="21"/>
+<wire x1="-3.48741875" y1="0.373378125" x2="-3.48741875" y2="-0.370840625" width="0.254" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -24823,7 +24826,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="DIO-00809"/>
+<attribute name="PROD_ID" value="DIO-09912"/>
 <attribute name="VALUE" value="RED" constant="no"/>
 </technology>
 </technologies>
@@ -24888,7 +24891,7 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 </technology>
 </technologies>
 </device>
-<device name="LARGE" package="LED-1206">
+<device name="1206" package="LED-1206">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
@@ -25846,7 +25849,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="10UF-16V-10%(TANT)" device="" value="10uF"/>
 <part name="GND10" library="SparkFun" deviceset="GND" device=""/>
-<part name="LED2" library="SparkFun-LED" deviceset="LED-GREEN" device="LARGE" value="GREEN"/>
+<part name="LED2" library="SparkFun-LED" deviceset="LED-GREEN" device="1206" value="GREEN"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="U$12" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="U$13" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
