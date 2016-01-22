@@ -12,7 +12,7 @@ MP3 Trigger
  Repository Contents
 -------------------
 * **/Hardware** - All Eagle design files (.brd, .sch)
-
+* **/Production** - Production files
 
 
  License Information
