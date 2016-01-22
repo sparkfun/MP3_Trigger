@@ -1,9 +1,9 @@
 MP3 Trigger
 ============
 
-![MP3 Trigger](https://cdn.sparkfun.com//assets/parts/6/3/5/9/11029-01.jpg)
+[![MP3 Trigger](https://cdn.sparkfun.com/assets/parts/1/1/2/2/7/13720-01.jpg)](https://cdn.sparkfun.com/assets/parts/1/1/2/2/7/13720-01.jpg)
 
-[*MP3 Trigger (WIG-11029)*](https://www.sparkfun.com/products/11029)
+[*MP3 Trigger (WIG-13720)*](https://www.sparkfun.com/products/13720)
 
 
  The MP3 Trigger board is built to make it MP3 sound integration easier than ever. 
