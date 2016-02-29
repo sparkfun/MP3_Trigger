@@ -9,13 +9,16 @@ MP3 Trigger
  The MP3 Trigger board is built to make it MP3 sound integration easier than ever. 
  The board has 18 external trigger pins that will directly trigger pre-selected MP3 tracks, and a full-duplex serial control port that provides full transport control, remote triggering for up to 256 tracks, and fast real-time volume control. 
  
- Repository Contents
+Repository Contents
 -------------------
 * **/Hardware** - All Eagle design files (.brd, .sch)
 * **/Production** - Production files
 
+Documentation
+--------------
+* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products.
 
- License Information
+License Information
 -------------------
 The hardware is released under [Creative Commons ShareAlike 3.0 International](https://creativecommons.org/licenses/by-sa/3.0/).
 
