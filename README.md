@@ -1,7 +1,7 @@
 MP3 Trigger
 ============
 
-![MP3 Trigger](https://cdn.sparkfun.com/assets/parts/1/1/2/2/7/13720-01.jpg)](https://cdn.sparkfun.com/assets/parts/1/1/2/2/7/13720-01.jpg)
+[![MP3 Trigger](https://cdn.sparkfun.com/assets/parts/1/1/2/2/7/13720-01.jpg)](https://cdn.sparkfun.com/assets/parts/1/1/2/2/7/13720-01.jpg)
 
 [*MP3 Trigger (WIG-13720)*](https://www.sparkfun.com/products/13720)
 
